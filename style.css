@@ -101,6 +101,7 @@
     box-sizing: border-box;
     height: 1000px;
     padding: 20px;
+    align-items: center;
     margin-bottom: 50px;
     background-color: rgb(14, 13, 13);
     background: url('https://i.pinimg.com/564x/7a/b2/dd/7ab2dd549c3bad7db172be52a53d6723.jpg') no-repeat center center/cover ;
@@ -198,6 +199,8 @@
     align-items: center;
     position: absolute;
     top: 220%;
+    opacity: 0;
+    
     
     
 }
