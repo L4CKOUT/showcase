@@ -100,7 +100,7 @@
     flex-direction: column;
     box-sizing: border-box;
     height: 1000px;
-    padding: 20px;
+    padding-top: 25px;
     align-items: center;
     margin-bottom: 50px;
     background-color: rgb(14, 13, 13);
