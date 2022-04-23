@@ -108,17 +108,19 @@
     color: rgb(218, 248, 84);
 }
 .headings2{
-    font-family: 'BIZ UDMincho', serif;
-    font-size: 3rem;
+    font-family: 'Rock Salt', cursive;
+    font-size: 5rem;
     text-align: center;
     padding: 40px;
+    color: white;
 }
 .glitch{
     font-size: 6rem;
-    font-weight: 700;
+    font-weight: 500;
     text-transform: uppercase;
     color: white;
     position: relative;
+    font-family: 'Rubik Glitch', cursive;
     
 
     text-shadow:
@@ -140,12 +142,7 @@
     transform: translate(0.05em, 0.025em);
     
 }
-.glitch span:last-child{
-    animation: glitch 375ms infinite;
-    clip-path: polygon(0 0, 100% 0, 100% 45%, 0 45%);
-    transform: translate(-0.0125em, -0.025em);
-    
-}
+
 @keyframes glitch{
     0%{
         text-shadow: 0.05em 0 0 rgba(255,0,0,.75),
